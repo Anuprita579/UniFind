@@ -10,7 +10,6 @@ mysql> SHOW TABLES;
 | course            |
 +-------------------+
 ```
-![WhatsApp Image 2023-09-24 at 01 23 40](https://github.com/Anuprita579/UniFind/assets/141035951/4b2d0baa-42ee-49be-8c0c-646ca92e12e9)
 # Attributes of Tables
 ---
 ## TABLE COLLEGE
@@ -29,6 +28,24 @@ RANKING INT NOT NULL,
 SCHOLARSHIP VARCHAR(3) NOT NULL,
 GRADE DECIMAL(10,5) NOT NULL,
 PRIMARY KEY (CID));
+
+-- OUTPUT:
+mysql> SHOW COLUMNS FROM college;
++-------------+---------------+------+-----+---------+-------+
+| Field       | Type          | Null | Key | Default | Extra |
++-------------+---------------+------+-----+---------+-------+
+| CID         | int           | NO   | PRI | NULL    |       |
+| CNAME       | varchar(100)  | NO   |     | NULL    |       |
+| LOCATION    | varchar(100)  | NO   |     | NULL    |       |
+| SEATS       | int           | NO   |     | NULL    |       |
+| STUDENROLL  | int           | NO   |     | NULL    |       |
+| FEES        | decimal(5,0)  | NO   |     | NULL    |       |
+| EXPENDITURE | decimal(10,0) | NO   |     | NULL    |       |
+| GRADRATE    | decimal(10,5) | NO   |     | NULL    |       |
+| RANKING     | int           | NO   |     | NULL    |       |
+| SCHOLARSHIP | varchar(3)    | NO   |     | NULL    |       |
+| GRADE       | decimal(10,5) | NO   |     | NULL    |       |
++-------------+---------------+------+-----+---------+-------+
 ```
 ![WhatsApp Image 2023-09-24 at 01 22 47](https://github.com/Anuprita579/UniFind/assets/141035951/6dec65fa-37f7-49a1-bc69-33444bd5cf5d)
 ## TABLE COURSE
