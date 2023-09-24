@@ -4,6 +4,22 @@
 # Attributes of Tables
 ---
 ## TABLE COLLEGE
+```sql
+-- This is a MySQL code block
+CREATE TABLE COLLEGE
+(CID INT NOT NULL,
+CNAME VARCHAR(100) NOT NULL,
+LOCATION VARCHAR(100) NOT NULL,
+SEATS INT NOT NULL,
+STUDENROLL INT NOT NULL,
+FEES DECIMAL(5) NOT NULL,
+EXPENDITURE DECIMAL NOT NULL,
+GRADRATE DECIMAL(10,5) NOT NULL,
+RANKING INT NOT NULL,
+SCHOLARSHIP VARCHAR(3) NOT NULL,
+GRADE DECIMAL(10,5) NOT NULL,
+PRIMARY KEY (CID));
+```
 ![WhatsApp Image 2023-09-24 at 01 22 47](https://github.com/Anuprita579/UniFind/assets/141035951/6dec65fa-37f7-49a1-bc69-33444bd5cf5d)
 ## TABLE COURSE
 ![WhatsApp Image 2023-09-24 at 01 21 32](https://github.com/Anuprita579/UniFind/assets/141035951/0ec2f183-64c2-4363-9e03-8b121121ef7c)
@@ -26,14 +42,5 @@
 ![WhatsApp Image 2023-09-24 at 01 32 26](https://github.com/Anuprita579/UniFind/assets/141035951/8d54880c-b28d-4ca0-a766-95458e83fd4c)
 ![WhatsApp Image 2023-09-24 at 01 33 05](https://github.com/Anuprita579/UniFind/assets/141035951/51357a0f-b18b-4d89-96f9-1210b56e6752)
 
-```sql
--- This is a MySQL code block
-CREATE TABLE users (
-id INT AUTO_INCREMENT PRIMARY KEY,
-username VARCHAR(50) NOT NULL,
-email VARCHAR(100) NOT NULL
-);
--- describe college
-DESCRIBE college;
-```
+
 
