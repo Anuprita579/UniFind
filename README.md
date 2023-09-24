@@ -193,6 +193,109 @@ INSERT INTO College VALUES(93,'University of Birmingham','UK',312,90,5400,9583,4
 INSERT INTO College VALUES(94,'Humboldt University of Berlin','Germany',434,210,3490,9685,48.64,5,'Yes',7.68);
 INSERT INTO College VALUES(95,'University of California, Santa Cruz','USA',396,203,6643,13025,48.59,71,'Yes',7.65);
 INSERT INTO College VALUES(96,'Albert Ludwig University of Freiburg','Germany',1113,401,3660,8444,48.57,6,'Yes',7.62);
+
+-- OUTPUT:
+mysql> SELECT * FROM college;
++-----+-------------------------------------------------+----------+-------+------------+------+-------------+-----------+---------+-------------+----------+
+| CID | CNAME                                           | LOCATION | SEATS | STUDENROLL | FEES | EXPENDITURE | GRADRATE  | RANKING | SCHOLARSHIP | GRADE    |
++-----+-------------------------------------------------+----------+-------+------------+------+-------------+-----------+---------+-------------+----------+
+|   1 | HARVARD UNIVERSITY                              | USA      |  1232 |        721 | 3300 |        7041 | 100.00000 |       1 | YES         | 10.00000 |
+|   2 | Stanford University                             | USA      |  1924 |        512 | 6450 |       10527 |  98.66000 |       2 | Yes         |  9.99700 |
+|   3 | Massachusetts Institute of Technology           | USA      |  1097 |        336 | 3750 |        8735 |  97.54000 |       3 | Yes         |  9.99500 |
+|   4 | University of Cambridge                         | UK       |   349 |        137 | 5450 |       19016 |  96.81000 |       1 | Yes         |  9.89000 |
+|   5 | University of Oxford                            | UK       |   146 |         55 | 4120 |       10922 |  96.46000 |       2 | Yes         |  9.86000 |
+|   6 | Columbia University                             | USA      |   479 |        158 | 3335 |        9727 |  96.14000 |       4 | Yes         |  9.86000 |
+|   7 | University of California                        | USA      |   340 |        103 | 5720 |        8861 |  92.25000 |       5 | Yes         |  9.76000 |
+|   8 | University of Chicago                           | USA      |  1720 |        489 | 4826 |       11487 |  90.70000 |       6 | Yes         |  9.69000 |
+|   9 | Princeton University                            | USA      |   839 |        227 | 4400 |       11644 |  89.42000 |       7 | Yes         |  9.55000 |
+|  10 | Cornell University                              | USA      |   498 |        172 | 3380 |        8991 |  86.79000 |       8 | Yes         |  9.54000 |
+|  11 | Yale University                                 | USA      |  1425 |        472 | 5406 |       10932 |  86.61000 |       9 | Yes         |  9.52000 |
+|  12 | California Institute of Technology              | USA      |  1900 |        484 | 4440 |       11711 |  84.40000 |      10 | Yes         |  9.51000 |
+|  13 | University of Pennsylvania                      | USA      |   780 |        290 | 4785 |        7940 |  77.60000 |      11 | Yes         |  9.48000 |
+|  14 | University of California-Los Angeles            | USA      |  1080 |        385 | 4552 |        9305 |  76.91000 |      12 | Yes         |  9.46000 |
+|  15 | Johns Hopkins University                        | USA      |   313 |        157 | 3640 |        8127 |  71.60000 |      13 | Yes         |  9.42000 |
+|  16 | New York University                             | USA      |  1093 |        220 | 4780 |        7355 |  68.39000 |      14 | Yes         |  9.42000 |
+|  17 | University of Michigan-Ann Arbor                | USA      |   992 |        418 | 5300 |       21424 |  68.36000 |      15 | Yes         |  9.40000 |
+|  18 | University of California-San Diego              | USA      |   908 |        423 | 3520 |        7994 |  66.59000 |      16 | Yes         |  9.39000 |
+|  19 | Northwestern University                         | USA      |   704 |        322 | 3090 |       10908 |  66.56000 |      17 | Yes         |  9.36000 |
+|  20 | University of Wisconsin-Madison                 | USA      |  2001 |       1016 | 3592 |        4010 |  64.51000 |      18 | No          |  9.34000 |
+|  21 | University of California-San Francisco          | USA      |   661 |        252 | 3336 |       42926 |  63.69000 |      19 | Yes         |  9.32000 |
+|  22 | University College London                       | UK       |  4664 |       1910 | 2540 |        5854 |  62.27000 |       3 | No          |  9.30000 |
+|  23 | Duke University                                 | USA      |   516 |        219 | 4124 |        6584 |  61.55000 |      20 | Yes         |  9.30000 |
+|  24 | Rockefeller University                          | USA      | 10308 |       3761 | 4850 |        4602 |  61.28000 |      21 | No          |  9.29000 |
+|  25 | University of Texas at Austin                   | USA      |   334 |        166 | 3922 |       14579 |  61.14000 |      22 | Yes         |  9.26000 |
+|  26 | University of Washington - Seattle              | USA      |  1729 |        951 | 2650 |        4739 |  60.61000 |      23 | No          |  9.25000 |
+|  27 | University of Toronto                           | Canada   |  1700 |        491 | 5920 |        7100 |  60.04000 |       1 | Yes         |  9.23000 |
+|  28 | University of Illinois at Urbana-Champaign      | USA      |  6791 |       3070 | 3933 |        6642 |  59.94000 |      24 | No          |  9.21000 |
+|  29 | Imperial College London                         | UK       |   513 |        257 | 4372 |        7836 |  59.61000 |       4 | Yes         |  9.20000 |
+|  30 | University of North Carolina at Chapel Hill     | USA      |   798 |        295 | 4342 |       11361 |  57.09000 |      25 | Yes         |  9.16000 |
+|  31 | University of Virginia                          | USA      |   556 |        172 | 4135 |        6523 |  56.73000 |      26 | Yes         |  9.14000 |
+|  32 | McGill University                               | Canada   |   483 |        206 | 4100 |        6136 |  56.49000 |       2 | Yes         |  9.12000 |
+|  33 | Purdue University                               | USA      |  1366 |        662 | 4410 |        8086 |  56.39000 |      27 | Yes         |  9.10000 |
+|  34 | Dartmouth College                               | USA      |   192 |        111 | 4300 |        9337 |  56.35000 |      28 | Yes         |  9.09000 |
+|  35 | University of Pittsburgh - Pittsburgh Campus    | USA      |   838 |        285 | 6206 |       13894 |  55.63000 |      29 | Yes         |  9.06000 |
+|  36 | Pennsylvania State University                   | USA      |  1402 |        531 | 8124 |       12580 |  55.54000 |      30 | Yes         |  9.00000 |
+|  37 | University of Minnesota, Twin Cities            | USA      |   784 |        279 | 5360 |        9084 |  55.51000 |      31 | Yes         |  8.95000 |
+|  38 | Ohio State University, Columbus                 | USA      |  5349 |       2367 | 3920 |        7503 |  55.39000 |      32 | Yes         |  8.93000 |
+|  39 | Rutgers University-New Brunswick                | USA      |   850 |        348 | 5400 |        8954 |  55.23000 |      33 | Yes         |  8.91000 |
+|  40 | University of Southern California               | USA      |   707 |        308 | 2950 |        6668 |  55.12000 |      34 | Yes         |  8.88000 |
+|  41 | Washington University in St. Louis              | USA      |   494 |        129 | 4850 |        7550 |  55.03000 |      35 | Yes         |  8.85000 |
+|  42 | University of California, Davis                 | USA      |   974 |        481 | 3664 |        7614 |  54.85000 |      36 | Yes         |  8.83000 |
+|  43 | University of Colorado Boulder                  | USA      |   923 |        284 | 3616 |       12957 |  54.62000 |      37 | Yes         |  8.80000 |
+|  44 | University of Edinburgh                         | UK       |   877 |        546 | 2700 |        3752 |  54.39000 |       5 | Yes         |  8.77000 |
+|  45 | University of Florida                           | USA      |   327 |        114 | 4100 |       16364 |  54.18000 |      38 | Yes         |  8.74000 |
+|  46 | Carnegie Mellon University                      | USA      |  2330 |        640 | 5510 |       10941 |  54.00000 |      39 | No          |  8.74000 |
+|  47 | University of British Columbia                  | Canada   |  1221 |        480 | 3940 |       10511 |  53.92000 |       3 | Yes         |  8.71000 |
+|  48 | University of California, Santa Barbara         | USA      |   184 |        122 | 3580 |        8324 |  53.63000 |      40 | Yes         |  8.70000 |
+|  49 | Boston University                               | USA      |   384 |        104 | 2900 |        7623 |  53.43000 |      41 | Yes         |  8.69000 |
+|  50 | University of Manchester                        | UK       |  1150 |        542 | 3396 |        6817 |  53.38000 |       6 | Yes         |  8.67000 |
+|  51 | University of Arizona                           | USA      |   588 |        287 | 4325 |        8649 |  53.26000 |      42 | Yes         |  8.65000 |
+|  52 | Vanderbilt University                           | USA      |   336 |        156 | 2700 |        8377 |  53.05000 |      43 | Yes         |  8.64000 |
+|  53 | University of Utah                              | USA      |  3028 |       1025 | 2948 |        7041 |  52.89000 |      44 | Yes         |  8.61000 |
+|  54 | University of Maryland, College Park            | USA      |   358 |        181 | 4350 |        6259 |  52.72000 |      45 | Yes         |  8.59000 |
+|  55 | University of Texas Southwestern Medical Center | USA      |   514 |        209 | 3990 |        9073 |  52.50000 |      46 | Yes         |  8.57000 |
+|  56 | Ruprecht Karl University of Heidelberg          | Germany  | 13007 |       3810 | 6810 |       16836 |  52.32000 |       1 | Yes         |  8.54000 |
+|  57 | University of Notre Dame                        | USA      |  1019 |        418 | 5885 |       20447 |  52.27000 |      47 | No          |  8.53000 |
+|  58 | Ludwig Maximilian University of Munich          | Germany  |  7333 |       3076 | 3352 |        6918 |  52.16000 |       2 | Yes         |  8.51000 |
+|  59 | Georgia Institute of Technology                 | USA      |   330 |        151 | 6270 |       15387 |  52.08000 |      48 | Yes         |  8.50000 |
+|  60 | University of Rochester                         | USA      |  3414 |       1061 | 4440 |        7671 |  52.03000 |      49 | Yes         |  8.46000 |
+|  61 | Brown University                                | USA      |  2743 |        740 | 6750 |       17150 |  52.01000 |      50 | Yes         |  8.44000 |
+|  62 | Emory University                                | USA      |   274 |        158 | 5879 |        5935 |  51.85000 |      51 | No          |  8.41000 |
+|  63 | University of California                        | USA      |  1228 |       1202 | 2370 |        4900 |  51.51000 |      52 | Yes         |  8.40000 |
+|  64 | University of Texas MD Anderson Cancer Center   | USA      |   351 |        155 | 3597 |        8355 |  51.51000 |      53 | Yes         |  8.37000 |
+|  65 | Kings College London                            | UK       |   673 |        292 | 4725 |        8655 |  51.31000 |       7 | Yes         |  8.35000 |
+|  66 | Tufts University                                | USA      |  5402 |       4615 | 3580 |        7916 |  51.22000 |      54 | Yes         |  8.34000 |
+|  67 | Arizona State University                        | USA      |  3239 |       1462 | 5926 |       20440 |  51.13000 |      55 | Yes         |  8.31000 |
+|  68 | Technical University of Munich                  | Germany  |   810 |        313 | 6750 |       17449 |  50.58000 |       3 | Yes         |  8.28000 |
+|  69 | Texas A&M University, College Station           | USA      |  3813 |        862 | 4750 |       13675 |  50.43000 |      56 | Yes         |  8.25000 |
+|  70 | Case Western Reserve University                 | USA      |  2037 |        700 | 4650 |        9511 |  50.28000 |      57 | Yes         |  8.22000 |
+|  71 | Indiana University - Bloomington                | USA      |   494 |        224 | 6250 |        7117 |  50.26000 |      58 | Yes         |  8.17000 |
+|  72 | University of Alberta                           | Canada   |   604 |        213 | 4600 |        7922 |  50.25000 |       4 | Yes         |  8.14000 |
+|  73 | Georgetown University                           | USA      |   247 |        247 | 5300 |        8985 |  49.92000 |      59 | Yes         |  8.11000 |
+|  74 | Michigan State University                       | USA      |  3817 |       1650 | 4877 |        8453 |  49.74000 |      60 | Yes         |  8.09000 |
+|  75 | Rice University                                 | USA      |  3294 |       1483 | 4368 |        7268 |  49.73000 |      61 | Yes         |  8.09000 |
+|  76 | Baylor College of Medicine                      | USA      |  1512 |        913 | 3710 |        7786 |  49.70000 |      62 | Yes         |  8.07000 |
+|  77 | University of Bristol                           | UK       |  1339 |        657 | 2790 |        3739 |  49.59000 |       8 | Yes         |  8.03000 |
+|  78 | University of Colorado Denver                   | USA      |   587 |        298 | 3070 |        5391 |  49.48000 |      63 | Yes         |  8.01000 |
+|  79 | University of Glasgow                           | UK       |  2193 |        753 | 5340 |        7972 |  49.45000 |       9 | No          |  7.99000 |
+|  80 | Western University                              | Canada   |    90 |         35 | 2812 |        7976 |  49.31000 |       5 | No          |  7.97000 |
+|  81 | University of Miami                             | USA      |  1579 |        489 | 3957 |       17960 |  49.09000 |      64 | Yes         |  7.97000 |
+|  82 | Stony Brook University                          | USA      |  5201 |       1191 | 5690 |       24386 |  49.09000 |      65 | Yes         |  7.95000 |
+|  83 | University of Texas at Dallas                   | USA      |   991 |        352 | 3880 |        7666 |  49.05000 |      66 | Yes         |  7.93000 |
+|  84 | University of Nottingham                        | UK       |   951 |        464 | 3150 |        6716 |  49.02000 |      10 | Yes         |  7.91000 |
+|  85 | University of Iowa                              | USA      |  1427 |        434 | 3775 |        7364 |  49.01000 |      67 | Yes         |  7.90000 |
+|  86 | Southern Methodist University                   | USA      |  3156 |        713 | 4730 |       19733 |  48.99000 |      68 | Yes         |  7.88000 |
+|  87 | Icahn School of Medicine at Mount Sinai         | USA      |   940 |        363 | 4690 |        6318 |  48.96000 |      69 | Yes         |  7.87000 |
+|  88 | University of Alabama at Birmingham             | USA      |   880 |        291 | 4100 |        8425 |  48.79000 |      70 | Yes         |  7.85000 |
+|  89 | Free University of Berlin                       | Germany  |  1465 |        505 | 6408 |       12751 |  48.78000 |       4 | Yes         |  7.81000 |
+|  90 | University of Southampton                       | UK       |  3433 |        527 | 4840 |        7697 |  48.77000 |      11 | Yes         |  7.77000 |
+|  91 | McMaster University                             | Canada   |   607 |        198 | 5285 |       10961 |  48.74000 |       6 | Yes         |  7.76000 |
+|  92 | University of Montreal                          | Canada   |  1090 |        616 | 4410 |        6897 |  48.72000 |       7 | Yes         |  7.73000 |
+|  93 | University of Birmingham                        | UK       |   312 |         90 | 5400 |        9583 |  48.70000 |      12 | No          |  7.71000 |
+|  94 | Humboldt University of Berlin                   | Germany  |   434 |        210 | 3490 |        9685 |  48.64000 |       5 | Yes         |  7.68000 |
+|  95 | University of California, Santa Cruz            | USA      |   396 |        203 | 6643 |       13025 |  48.59000 |      71 | Yes         |  7.65000 |
+|  96 | Albert Ludwig University of Freiburg            | Germany  |  1113 |        401 | 3660 |        8444 |  48.57000 |       6 | Yes         |  7.62000 |
++-----+-------------------------------------------------+----------+-------+------------+------+-------------+-----------+---------+-------------+----------+
 ```
 ![WhatsApp Image 2023-09-24 at 01 27 03](https://github.com/Anuprita579/UniFind/assets/141035951/cb3cb326-5a50-4527-9886-25cab264bcd6)
 ![WhatsApp Image 2023-09-24 at 01 27 40](https://github.com/Anuprita579/UniFind/assets/141035951/3354e5c6-554b-42fc-921b-f27d518cb5f2)
