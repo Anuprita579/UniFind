@@ -297,11 +297,6 @@ mysql> SELECT * FROM college;
 |  96 | Albert Ludwig University of Freiburg            | Germany  |  1113 |        401 | 3660 |        8444 |  48.57000 |       6 | Yes         |  7.62000 |
 +-----+-------------------------------------------------+----------+-------+------------+------+-------------+-----------+---------+-------------+----------+
 ```
-![WhatsApp Image 2023-09-24 at 01 27 03](https://github.com/Anuprita579/UniFind/assets/141035951/cb3cb326-5a50-4527-9886-25cab264bcd6)
-![WhatsApp Image 2023-09-24 at 01 27 40](https://github.com/Anuprita579/UniFind/assets/141035951/3354e5c6-554b-42fc-921b-f27d518cb5f2)
-![WhatsApp Image 2023-09-24 at 01 28 23](https://github.com/Anuprita579/UniFind/assets/141035951/d8911ed0-e585-4eb1-93d6-a8571295b872)
-![WhatsApp Image 2023-09-24 at 01 28 50](https://github.com/Anuprita579/UniFind/assets/141035951/ce96fe8b-5334-4741-b6e2-1cef4cdacc25)
-![WhatsApp Image 2023-09-24 at 01 29 16](https://github.com/Anuprita579/UniFind/assets/141035951/c570e741-07e1-4ef2-a5a2-a05f19c18441)
 ## TABLE COURSE
 ```sql
 -- This is a MySQL code for inserting records into Table Course
@@ -401,6 +396,109 @@ INSERT INTO COURSE VALUES (22193,1093,93,'Civil Engineering',2,120);
 INSERT INTO COURSE VALUES (22194,1094,94,'Electrical Engineering',1,60);
 INSERT INTO COURSE VALUES (22195,1095,95,'Mechanical Engineering',2,60);
 INSERT INTO COURSE VALUES (22196,1096,96,'Electrical Engineering',1,60);
+
+-- OUTPUT:
+mysql> SELECT * FROM course;
++-------+---------+--------+------------------------+------------+--------+
+| COID  | USID_FK | CID_FK | CONAME                 | CODURATION | CREDIT |
++-------+---------+--------+------------------------+------------+--------+
+| 22101 |    1001 |      1 | Electrical Engineering |          1 |    120 |
+| 22102 |    1002 |      2 | Computer Science       |          1 |    100 |
+| 22103 |    1003 |      3 | Computer Science       |          2 |    120 |
+| 22104 |    1004 |      4 | Civil Engineering      |          2 |    100 |
+| 22105 |    1005 |      5 | Civil Engineering      |          2 |    100 |
+| 22106 |    1006 |      6 | Mechanical Engineering |          1 |     60 |
+| 22107 |    1007 |      7 | Electrical Engineering |          2 |    100 |
+| 22108 |    1008 |      8 | Computer Science       |          2 |    100 |
+| 22109 |    1009 |      9 | Civil Engineering      |          2 |     60 |
+| 22110 |    1010 |     10 | Electrical Engineering |          1 |    120 |
+| 22111 |    1011 |     11 | Computer Science       |          1 |     60 |
+| 22112 |    1012 |     12 | Electrical Engineering |          1 |    120 |
+| 22113 |    1013 |     13 | Electrical Engineering |          2 |    120 |
+| 22114 |    1014 |     14 | Mechanical Engineering |          1 |    120 |
+| 22115 |    1015 |     15 | Computer Science       |          2 |    120 |
+| 22116 |    1016 |     16 | Mechanical Engineering |          2 |    100 |
+| 22117 |    1017 |     17 | Electrical Engineering |          1 |    120 |
+| 22118 |    1018 |     18 | Mechanical Engineering |          2 |     60 |
+| 22119 |    1019 |     19 | Computer Science       |          2 |     60 |
+| 22120 |    1020 |     20 | Mechanical Engineering |          2 |    100 |
+| 22121 |    1021 |     21 | Civil Engineering      |          1 |    120 |
+| 22122 |    1022 |     22 | Mechanical Engineering |          1 |    100 |
+| 22123 |    1023 |     23 | Mechanical Engineering |          1 |    120 |
+| 22124 |    1024 |     24 | Electrical Engineering |          1 |    120 |
+| 22125 |    1025 |     25 | Mechanical Engineering |          2 |    120 |
+| 22126 |    1026 |     26 | Civil Engineering      |          2 |    120 |
+| 22127 |    1027 |     27 | Mechanical Engineering |          1 |     60 |
+| 22128 |    1028 |     28 | Computer Science       |          1 |    100 |
+| 22129 |    1029 |     29 | Civil Engineering      |          1 |    100 |
+| 22130 |    1030 |     30 | Computer Science       |          2 |    100 |
+| 22131 |    1031 |     31 | Mechanical Engineering |          1 |    120 |
+| 22132 |    1032 |     32 | Computer Science       |          2 |    120 |
+| 22133 |    1033 |     33 | Civil Engineering      |          1 |    100 |
+| 22134 |    1034 |     34 | Electrical Engineering |          1 |    100 |
+| 22135 |    1035 |     35 | Mechanical Engineering |          2 |    120 |
+| 22136 |    1036 |     36 | Mechanical Engineering |          2 |    100 |
+| 22137 |    1037 |     37 | Computer Science       |          1 |     60 |
+| 22138 |    1038 |     38 | Civil Engineering      |          1 |    120 |
+| 22139 |    1039 |     39 | Computer Science       |          1 |     60 |
+| 22140 |    1040 |     40 | Electrical Engineering |          1 |    100 |
+| 22141 |    1041 |     41 | Electrical Engineering |          1 |    100 |
+| 22142 |    1042 |     42 | Civil Engineering      |          1 |    100 |
+| 22143 |    1043 |     43 | Mechanical Engineering |          1 |     60 |
+| 22144 |    1044 |     44 | Civil Engineering      |          2 |    120 |
+| 22145 |    1045 |     45 | Electrical Engineering |          2 |    100 |
+| 22146 |    1046 |     46 | Mechanical Engineering |          2 |    100 |
+| 22147 |    1047 |     47 | Civil Engineering      |          1 |     60 |
+| 22148 |    1048 |     48 | Electrical Engineering |          1 |     60 |
+| 22149 |    1049 |     49 | Electrical Engineering |          2 |    120 |
+| 22150 |    1050 |     50 | Civil Engineering      |          2 |    100 |
+| 22151 |    1051 |     51 | Electrical Engineering |          2 |    120 |
+| 22152 |    1052 |     52 | Mechanical Engineering |          2 |    100 |
+| 22153 |    1053 |     53 | Computer Science       |          2 |    100 |
+| 22154 |    1054 |     54 | Civil Engineering      |          1 |    100 |
+| 22155 |    1055 |     55 | Mechanical Engineering |          2 |     60 |
+| 22156 |    1056 |     56 | Computer Science       |          2 |    120 |
+| 22157 |    1057 |     57 | Electrical Engineering |          1 |    120 |
+| 22158 |    1058 |     58 | Electrical Engineering |          2 |    120 |
+| 22159 |    1059 |     59 | Electrical Engineering |          2 |    120 |
+| 22160 |    1060 |     60 | Mechanical Engineering |          2 |     60 |
+| 22161 |    1061 |     61 | Civil Engineering      |          1 |    100 |
+| 22162 |    1062 |     62 | Civil Engineering      |          2 |     60 |
+| 22163 |    1063 |     63 | Electrical Engineering |          2 |     60 |
+| 22164 |    1064 |     64 | Computer Science       |          2 |     60 |
+| 22165 |    1065 |     65 | Mechanical Engineering |          1 |    100 |
+| 22166 |    1066 |     66 | Computer Science       |          1 |    120 |
+| 22167 |    1067 |     67 | Computer Science       |          1 |    100 |
+| 22181 |    1081 |     81 | Electrical Engineering |          2 |    100 |
+| 22182 |    1082 |     82 | Civil Engineering      |          1 |    100 |
+| 22183 |    1083 |     83 | Computer Science       |          2 |    120 |
+| 22184 |    1084 |     84 | Mechanical Engineering |          1 |    100 |
+| 22185 |    1085 |     85 | Mechanical Engineering |          2 |    100 |
+| 22186 |    1086 |     86 | Civil Engineering      |          1 |    120 |
+| 22187 |    1087 |     87 | Electrical Engineering |          2 |    100 |
+| 22188 |    1088 |     88 | Civil Engineering      |          2 |    120 |
+| 22189 |    1089 |     89 | Electrical Engineering |          1 |    100 |
+| 22190 |    1090 |     90 | Electrical Engineering |          2 |    100 |
+| 22191 |    1091 |     91 | Civil Engineering      |          1 |    100 |
+| 22192 |    1092 |     92 | Civil Engineering      |          2 |    120 |
+| 22193 |    1093 |     93 | Civil Engineering      |          2 |    120 |
+| 22194 |    1094 |     94 | Electrical Engineering |          1 |     60 |
+| 22195 |    1095 |     95 | Mechanical Engineering |          2 |     60 |
+| 22196 |    1096 |     96 | Electrical Engineering |          1 |     60 |
+| 22268 |    1168 |     68 | Civil Engineering      |          1 |    100 |
+| 22269 |    1169 |     69 | Computer Science       |          1 |    120 |
+| 22270 |    1170 |     70 | Mechanical Engineering |          1 |     60 |
+| 22271 |    1171 |     71 | Electrical Engineering |          2 |    120 |
+| 22272 |    1172 |     72 | Computer Science       |          1 |    100 |
+| 22273 |    1173 |     73 | Electrical Engineering |          2 |     60 |
+| 22274 |    1174 |     74 | Civil Engineering      |          2 |    100 |
+| 22275 |    1175 |     75 | Computer Science       |          2 |     60 |
+| 22276 |    1176 |     76 | Mechanical Engineering |          1 |     60 |
+| 22277 |    1177 |     77 | Civil Engineering      |          2 |     60 |
+| 22278 |    1178 |     78 | Computer Science       |          2 |    100 |
+| 22279 |    1179 |     79 | Electrical Engineering |          2 |    120 |
+| 22280 |    1180 |     80 | Computer Science       |          1 |    100 |
++-------+---------+--------+------------------------+------------+--------+
 ```
 ![WhatsApp Image 2023-09-24 at 01 30 06](https://github.com/Anuprita579/UniFind/assets/141035951/b1660af2-6ed7-469e-a9bf-8e6a9749358d)
 ![WhatsApp Image 2023-09-24 at 01 30 40](https://github.com/Anuprita579/UniFind/assets/141035951/96df7fc3-6709-48f9-835d-08cf7fac29e7)
