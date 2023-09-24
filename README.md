@@ -5,7 +5,7 @@
 ---
 ## TABLE COLLEGE
 ```sql
--- This is a MySQL code block
+-- This is a MySQL code for creating Table College
 CREATE TABLE COLLEGE
 (CID INT NOT NULL,
 CNAME VARCHAR(100) NOT NULL,
@@ -22,8 +22,28 @@ PRIMARY KEY (CID));
 ```
 ![WhatsApp Image 2023-09-24 at 01 22 47](https://github.com/Anuprita579/UniFind/assets/141035951/6dec65fa-37f7-49a1-bc69-33444bd5cf5d)
 ## TABLE COURSE
+```sql
+-- This is a MySQL code for creating Table Course
+CREATE TABLE COURSE(
+COID INT NOT NULL,
+USID_FK INT NOT NULL,
+CID_FK INT NOT NULL,
+CONAME VARCHAR(100) NOT NULL,
+CODURATION DECIMAL NOT NULL,
+CREDIT INT NOT NULL,
+PRIMARY KEY (COID),
+FOREIGN KEY (CID_FK)REFERENCES COLLEGE(CID));
+```
 ![WhatsApp Image 2023-09-24 at 01 21 32](https://github.com/Anuprita579/UniFind/assets/141035951/0ec2f183-64c2-4363-9e03-8b121121ef7c)
 ## TABLE CONTACT
+```sql
+-- This is a MySQL code for creating Table Course
+CREATE TABLE CONTACT(
+CID_FK INT NOT NULL,
+CON1 BIGINT NOT NULL,
+CON2 BIGINT NOT NULL,
+FOREIGN KEY (CID_FK)REFERENCES COLLEGE(CID));
+```
 ![WhatsApp Image 2023-09-24 at 01 20 48](https://github.com/Anuprita579/UniFind/assets/141035951/9230bb73-6197-4101-a241-60f5938a0824)
 # Records of Tables
 ---
