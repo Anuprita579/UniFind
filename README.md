@@ -8,6 +8,7 @@ mysql> SHOW TABLES;
 | college           |
 | contact           |
 | course            |
+| users             |
 +-------------------+
 ```
 # Attributes of Tables
@@ -92,6 +93,26 @@ mysql> SHOW COLUMNS FROM contact;
 | CON2   | bigint | NO   |     | NULL    |       |
 +--------+--------+------+-----+---------+-------+
 ```
+## TABLE USERS
+```sql
+-- This is a MySQL code for creating Table Users
+CREATE TABLE USERS(
+USID INT NOT NULL AUTO_INCREMENT,
+USNAME VARCHAR(20) NOT NULL,
+USPASSWORD INT NOT NULL,
+PRIMARY KEY (USID));
+
+-- OUTPUT:
+mysql> SHOW COLUMNS FROM users;
++------------+-------------+------+-----+---------+----------------+
+| Field      | Type        | Null | Key | Default | Extra          |
++------------+-------------+------+-----+---------+----------------+
+| USID       | int         | NO   | PRI | NULL    | auto_increment |
+| USNAME     | varchar(20) | NO   |     | NULL    |                |
+| USPASSWORD | int         | NO   |     | NULL    |                |
++------------+-------------+------+-----+---------+----------------+
+```
+
 # Records of Tables
 ---
 ## TABLE COLLEGE
