@@ -47,7 +47,6 @@ mysql> SHOW COLUMNS FROM college;
 | GRADE       | decimal(10,5) | NO   |     | NULL    |       |
 +-------------+---------------+------+-----+---------+-------+
 ```
-![WhatsApp Image 2023-09-24 at 01 22 47](https://github.com/Anuprita579/UniFind/assets/141035951/6dec65fa-37f7-49a1-bc69-33444bd5cf5d)
 ## TABLE COURSE
 ```sql
 -- This is a MySQL code for creating Table Course
@@ -60,8 +59,20 @@ CODURATION DECIMAL NOT NULL,
 CREDIT INT NOT NULL,
 PRIMARY KEY (COID),
 FOREIGN KEY (CID_FK)REFERENCES COLLEGE(CID));
+
+-- OUTPUT:
+mysql> SHOW COLUMNS FROM course;
++------------+---------------+------+-----+---------+-------+
+| Field      | Type          | Null | Key | Default | Extra |
++------------+---------------+------+-----+---------+-------+
+| COID       | int           | NO   | PRI | NULL    |       |
+| USID_FK    | int           | NO   |     | NULL    |       |
+| CID_FK     | int           | NO   | MUL | NULL    |       |
+| CONAME     | varchar(100)  | NO   |     | NULL    |       |
+| CODURATION | decimal(10,0) | NO   |     | NULL    |       |
+| CREDIT     | int           | NO   |     | NULL    |       |
++------------+---------------+------+-----+---------+-------+
 ```
-![WhatsApp Image 2023-09-24 at 01 21 32](https://github.com/Anuprita579/UniFind/assets/141035951/0ec2f183-64c2-4363-9e03-8b121121ef7c)
 ## TABLE CONTACT
 ```sql
 -- This is a MySQL code for creating Table Contact
