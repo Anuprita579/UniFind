@@ -81,8 +81,17 @@ CID_FK INT NOT NULL,
 CON1 BIGINT NOT NULL,
 CON2 BIGINT NOT NULL,
 FOREIGN KEY (CID_FK)REFERENCES COLLEGE(CID));
+
+-- OUTPUT:
+mysql> SHOW COLUMNS FROM contact;
++--------+--------+------+-----+---------+-------+
+| Field  | Type   | Null | Key | Default | Extra |
++--------+--------+------+-----+---------+-------+
+| CID_FK | int    | NO   | MUL | NULL    |       |
+| CON1   | bigint | NO   |     | NULL    |       |
+| CON2   | bigint | NO   |     | NULL    |       |
++--------+--------+------+-----+---------+-------+
 ```
-![WhatsApp Image 2023-09-24 at 01 20 48](https://github.com/Anuprita579/UniFind/assets/141035951/9230bb73-6197-4101-a241-60f5938a0824)
 # Records of Tables
 ---
 ## TABLE COLLEGE
