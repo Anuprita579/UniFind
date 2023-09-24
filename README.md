@@ -1,6 +1,7 @@
 # Tables
 ---
 ```sql
+mysql> SHOW TABLES;
 +-------------------+
 | Tables_in_unifind |
 +-------------------+
