@@ -37,7 +37,7 @@ FOREIGN KEY (CID_FK)REFERENCES COLLEGE(CID));
 ![WhatsApp Image 2023-09-24 at 01 21 32](https://github.com/Anuprita579/UniFind/assets/141035951/0ec2f183-64c2-4363-9e03-8b121121ef7c)
 ## TABLE CONTACT
 ```sql
--- This is a MySQL code for creating Table Course
+-- This is a MySQL code for creating Table Contact
 CREATE TABLE CONTACT(
 CID_FK INT NOT NULL,
 CON1 BIGINT NOT NULL,
