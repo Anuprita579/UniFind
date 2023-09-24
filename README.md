@@ -1,10 +1,13 @@
 # Tables
 ---
 ![WhatsApp Image 2023-09-24 at 01 23 40](https://github.com/Anuprita579/UniFind/assets/141035951/4b2d0baa-42ee-49be-8c0c-646ca92e12e9)
-
+# Attributes of Tables
+---
 ![WhatsApp Image 2023-09-24 at 01 22 47](https://github.com/Anuprita579/UniFind/assets/141035951/6dec65fa-37f7-49a1-bc69-33444bd5cf5d)
 ![WhatsApp Image 2023-09-24 at 01 21 32](https://github.com/Anuprita579/UniFind/assets/141035951/0ec2f183-64c2-4363-9e03-8b121121ef7c)
 ![WhatsApp Image 2023-09-24 at 01 20 48](https://github.com/Anuprita579/UniFind/assets/141035951/9230bb73-6197-4101-a241-60f5938a0824)
+# Records of Tables
+---
 ![WhatsApp Image 2023-09-24 at 01 27 03](https://github.com/Anuprita579/UniFind/assets/141035951/cb3cb326-5a50-4527-9886-25cab264bcd6)
 ![WhatsApp Image 2023-09-24 at 01 27 40](https://github.com/Anuprita579/UniFind/assets/141035951/3354e5c6-554b-42fc-921b-f27d518cb5f2)
 ![WhatsApp Image 2023-09-24 at 01 28 23](https://github.com/Anuprita579/UniFind/assets/141035951/d8911ed0-e585-4eb1-93d6-a8571295b872)
