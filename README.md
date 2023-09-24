@@ -11,11 +11,13 @@
 ![WhatsApp Image 2023-09-24 at 01 20 48](https://github.com/Anuprita579/UniFind/assets/141035951/9230bb73-6197-4101-a241-60f5938a0824)
 # Records of Tables
 ---
+## TABLE COLLEGE
 ![WhatsApp Image 2023-09-24 at 01 27 03](https://github.com/Anuprita579/UniFind/assets/141035951/cb3cb326-5a50-4527-9886-25cab264bcd6)
 ![WhatsApp Image 2023-09-24 at 01 27 40](https://github.com/Anuprita579/UniFind/assets/141035951/3354e5c6-554b-42fc-921b-f27d518cb5f2)
 ![WhatsApp Image 2023-09-24 at 01 28 23](https://github.com/Anuprita579/UniFind/assets/141035951/d8911ed0-e585-4eb1-93d6-a8571295b872)
 ![WhatsApp Image 2023-09-24 at 01 28 50](https://github.com/Anuprita579/UniFind/assets/141035951/ce96fe8b-5334-4741-b6e2-1cef4cdacc25)
 ![WhatsApp Image 2023-09-24 at 01 29 16](https://github.com/Anuprita579/UniFind/assets/141035951/c570e741-07e1-4ef2-a5a2-a05f19c18441)
+## TABLE COURSE
 ![WhatsApp Image 2023-09-24 at 01 30 06](https://github.com/Anuprita579/UniFind/assets/141035951/b1660af2-6ed7-469e-a9bf-8e6a9749358d)
 ![WhatsApp Image 2023-09-24 at 01 30 40](https://github.com/Anuprita579/UniFind/assets/141035951/96df7fc3-6709-48f9-835d-08cf7fac29e7)
 ![WhatsApp Image 2023-09-24 at 01 31 07](https://github.com/Anuprita579/UniFind/assets/141035951/77ef7160-e841-4931-9a90-3342dfef67c7)
