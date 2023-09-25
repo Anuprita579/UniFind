@@ -214,6 +214,10 @@ INSERT INTO College VALUES(93,'University of Birmingham','UK',312,90,5400,9583,4
 INSERT INTO College VALUES(94,'Humboldt University of Berlin','Germany',434,210,3490,9685,48.64,5,'Yes',7.68);
 INSERT INTO College VALUES(95,'University of California, Santa Cruz','USA',396,203,6643,13025,48.59,71,'Yes',7.65);
 INSERT INTO College VALUES(96,'Albert Ludwig University of Freiburg','Germany',1113,401,3660,8444,48.57,6,'Yes',7.62);
+INSERT INTO College VALUES(97,'University of Tübingen','Germany',2532,902,4444,4900,48.56,7,'Yes',7.60);
+INSERT INTO College VALUES(98,'University of Cincinnati','USA',4101,1436,3288,5501,48.56,72,'Yes',7.58);
+INSERT INTO College VALUES(99,'University of Bonn','Germany',2011,1007,3603,6413,48.54,8,'Yes',7.57);
+INSERT INTO College VALUES(100,'Wake Forest University','USA',146,88,3080,3365,48.52,73,'Yes', 7.54);
 
 -- OUTPUT:
 mysql> SELECT * FROM college;
@@ -316,6 +320,10 @@ mysql> SELECT * FROM college;
 |  94 | Humboldt University of Berlin                   | Germany  |   434 |        210 | 3490 |        9685 |  48.64000 |       5 | Yes         |  7.68000 |
 |  95 | University of California, Santa Cruz            | USA      |   396 |        203 | 6643 |       13025 |  48.59000 |      71 | Yes         |  7.65000 |
 |  96 | Albert Ludwig University of Freiburg            | Germany  |  1113 |        401 | 3660 |        8444 |  48.57000 |       6 | Yes         |  7.62000 |
+|  97 | University of Tübingen                          | Germany  |  2532 |        902 | 4444 |        4900 |  48.56000 |       7 | Yes         |  7.60000 |
+|  98 | University of Cincinnati                        | USA      |  4101 |       1436 | 3288 |        5501 |  48.56000 |      72 | Yes         |  7.58000 |
+|  99 | University of Bonn                              | Germany  |  2011 |       1007 | 3603 |        6413 |  48.54000 |       8 | Yes         |  7.57000 |
+| 100 | Wake Forest University                          | USA      |   146 |         88 | 3080 |        3365 |  48.52000 |      73 | Yes         |  7.54000 |
 +-----+-------------------------------------------------+----------+-------+------------+------+-------------+-----------+---------+-------------+----------+
 ```
 ## TABLE COURSE
@@ -417,6 +425,10 @@ INSERT INTO COURSE VALUES (22193,1093,93,'Civil Engineering',2,120);
 INSERT INTO COURSE VALUES (22194,1094,94,'Electrical Engineering',1,60);
 INSERT INTO COURSE VALUES (22195,1095,95,'Mechanical Engineering',2,60);
 INSERT INTO COURSE VALUES (22196,1096,96,'Electrical Engineering',1,60);
+INSERT INTO COURSE VALUES (22197,1097,97,'Electrical Engineering',2,120);
+INSERT INTO COURSE VALUES (22198,1098,98,'Computer Science',1,100);
+INSERT INTO COURSE VALUES (22199,1099,99,'Mechanical Engineering',2,100);
+INSERT INTO COURSE VALUES (22200,1100,100,'Computer Science',2,120);
 
 -- OUTPUT:
 mysql> SELECT * FROM course;
@@ -490,6 +502,19 @@ mysql> SELECT * FROM course;
 | 22165 |    1065 |     65 | Mechanical Engineering |          1 |    100 |
 | 22166 |    1066 |     66 | Computer Science       |          1 |    120 |
 | 22167 |    1067 |     67 | Computer Science       |          1 |    100 |
+| 22268 |    1168 |     68 | Civil Engineering      |          1 |    100 |
+| 22269 |    1169 |     69 | Computer Science       |          1 |    120 |
+| 22270 |    1170 |     70 | Mechanical Engineering |          1 |     60 |
+| 22271 |    1171 |     71 | Electrical Engineering |          2 |    120 |
+| 22272 |    1172 |     72 | Computer Science       |          1 |    100 |
+| 22273 |    1173 |     73 | Electrical Engineering |          2 |     60 |
+| 22274 |    1174 |     74 | Civil Engineering      |          2 |    100 |
+| 22275 |    1175 |     75 | Computer Science       |          2 |     60 |
+| 22276 |    1176 |     76 | Mechanical Engineering |          1 |     60 |
+| 22277 |    1177 |     77 | Civil Engineering      |          2 |     60 |
+| 22278 |    1178 |     78 | Computer Science       |          2 |    100 |
+| 22279 |    1179 |     79 | Electrical Engineering |          2 |    120 |
+| 22280 |    1180 |     80 | Computer Science       |          1 |    100 |
 | 22181 |    1081 |     81 | Electrical Engineering |          2 |    100 |
 | 22182 |    1082 |     82 | Civil Engineering      |          1 |    100 |
 | 22183 |    1083 |     83 | Computer Science       |          2 |    120 |
@@ -506,19 +531,10 @@ mysql> SELECT * FROM course;
 | 22194 |    1094 |     94 | Electrical Engineering |          1 |     60 |
 | 22195 |    1095 |     95 | Mechanical Engineering |          2 |     60 |
 | 22196 |    1096 |     96 | Electrical Engineering |          1 |     60 |
-| 22268 |    1168 |     68 | Civil Engineering      |          1 |    100 |
-| 22269 |    1169 |     69 | Computer Science       |          1 |    120 |
-| 22270 |    1170 |     70 | Mechanical Engineering |          1 |     60 |
-| 22271 |    1171 |     71 | Electrical Engineering |          2 |    120 |
-| 22272 |    1172 |     72 | Computer Science       |          1 |    100 |
-| 22273 |    1173 |     73 | Electrical Engineering |          2 |     60 |
-| 22274 |    1174 |     74 | Civil Engineering      |          2 |    100 |
-| 22275 |    1175 |     75 | Computer Science       |          2 |     60 |
-| 22276 |    1176 |     76 | Mechanical Engineering |          1 |     60 |
-| 22277 |    1177 |     77 | Civil Engineering      |          2 |     60 |
-| 22278 |    1178 |     78 | Computer Science       |          2 |    100 |
-| 22279 |    1179 |     79 | Electrical Engineering |          2 |    120 |
-| 22280 |    1180 |     80 | Computer Science       |          1 |    100 |
+| 22197 |    1097 |     97 | Electrical Engineering |          2 |    120 |
+| 22198 |    1098 |     98 | Computer Science       |          1 |    100 |
+| 22199 |    1099 |     99 | Mechanical Engineering |          2 |    100 |
+| 22200 |    1100 |    100 | Computer Science       |          2 |    120 |
 +-------+---------+--------+------------------------+------------+--------+
 ```
 ## TABLE CONTACT
@@ -620,6 +636,10 @@ INSERT INTO CONTACT VALUES(93,1709779077,8696255783);
 INSERT INTO CONTACT VALUES(94,3842358959,7113300371);
 INSERT INTO CONTACT VALUES(95,3197122393,3652128611);
 INSERT INTO CONTACT VALUES(96,3071652082,3162746079);
+INSERT INTO CONTACT VALUES(97,3329222180,6735138205);
+INSERT INTO CONTACT VALUES(98,9455294591,1216202608);
+INSERT INTO CONTACT VALUES(99,9592443017,6648514852);
+INSERT INTO CONTACT VALUES(100,8473599602,2619689095);
 
 -- OUTPUT:
 mysql> SELECT * FROM contact;
@@ -722,6 +742,10 @@ mysql> SELECT * FROM contact;
 |     94 | 3842358959 | 7113300371 |
 |     95 | 3197122393 | 3652128611 |
 |     96 | 3071652082 | 3162746079 |
+|     97 | 3329222180 | 6735138205 |
+|     98 | 9455294591 | 1216202608 |
+|     99 | 9592443017 | 6648514852 |
+|    100 | 8473599602 | 2619689095 |
 +--------+------------+------------+
 ```
 
