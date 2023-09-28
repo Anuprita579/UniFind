@@ -96,8 +96,14 @@ mysql> SHOW COLUMNS FROM contact;
 ## TABLE USERS
 ```sql
 -- This is a MySQL code for creating Table Users
+
 CREATE TABLE USERS(
 USID INT NOT NULL AUTO_INCREMENT,
+FULLNAME VARCHAR(40) NOT NULL,
+EMAIL VARCHAR(40) NOT NULL,
+DOB VARCHAR(10) NOT NULL,
+GENDER VARCHAR(20) NOT NULL,
+CONTACT BIGINT NOT NULL,
 USNAME VARCHAR(20) NOT NULL,
 USPASSWORD INT NOT NULL,
 PRIMARY KEY (USID));
@@ -108,6 +114,11 @@ mysql> SHOW COLUMNS FROM users;
 | Field      | Type        | Null | Key | Default | Extra          |
 +------------+-------------+------+-----+---------+----------------+
 | USID       | int         | NO   | PRI | NULL    | auto_increment |
+| FULLNAME   | varchar(40) | NO   |     | NULL    |                |
+| EMAIL      | varchar(40) | NO   |     | NULL    |                |
+| DOB        | varchar(10) | NO   |     | NULL    |                |
+| GENDER     | varchar(20) | NO   |     | NULL    |                |
+| CONTACT    | bigint      | NO   |     | NULL    |                |
 | USNAME     | varchar(20) | NO   |     | NULL    |                |
 | USPASSWORD | int         | NO   |     | NULL    |                |
 +------------+-------------+------+-----+---------+----------------+
