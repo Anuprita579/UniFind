@@ -9,6 +9,7 @@ mysql> SHOW TABLES;
 | contact           |
 | course            |
 | users             |
+| admin             |
 +-------------------+
 ```
 # Attributes of Tables
@@ -96,7 +97,6 @@ mysql> SHOW COLUMNS FROM contact;
 ## TABLE USERS
 ```sql
 -- This is a MySQL code for creating Table Users
-
 CREATE TABLE USERS(
 USID INT NOT NULL AUTO_INCREMENT,
 FULLNAME VARCHAR(40) NOT NULL,
@@ -122,6 +122,25 @@ mysql> SHOW COLUMNS FROM users;
 | USNAME     | varchar(20) | NO   |     | NULL    |                |
 | USPASSWORD | int         | NO   |     | NULL    |                |
 +------------+-------------+------+-----+---------+----------------+
+```
+## TABLE ADMIN
+```sql
+-- This is a MySQL code for creating Table Users
+CREATE TABLE ADMIN(
+ADMID INT NOT NULL,
+ADMNAME VARCHAR(20) NOT NULL,
+ADMPASSWORD INT NOT NULL,
+PRIMARY KEY (ADMID));
+
+-- OUTPUT:
+mysql> SHOW COLUMNS FROM admin;
++-------------+-------------+------+-----+---------+-------+
+| Field       | Type        | Null | Key | Default | Extra |
++-------------+-------------+------+-----+---------+-------+
+| ADMID       | int         | NO   | PRI | NULL    |       |
+| ADMNAME     | varchar(20) | NO   |     | NULL    |       |
+| ADMPASSWORD | int         | NO   |     | NULL    |       |
++-------------+-------------+------+-----+---------+-------+
 ```
 
 # Records of Tables
