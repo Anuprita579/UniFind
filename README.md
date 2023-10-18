@@ -782,8 +782,13 @@ mysql> SELECT * FROM contact;
 
 https://github.com/Anuprita579/UniFind/assets/141035951/407d0a60-7138-4667-9551-138b5cdff597
 
+# REPORT
 
+[MiniProject_Report_FINAL.pdf](https://github.com/Anuprita579/UniFind/files/13031764/MiniProject_Report_FINAL.pdf)
 
+# PRESENTATION
+
+[UniFind_D10A_CollegeSearchPortal_Final (1).pptx](https://github.com/Anuprita579/UniFind/files/13031777/UniFind_D10A_CollegeSearchPortal_Final.1.pptx)
 
 
 
